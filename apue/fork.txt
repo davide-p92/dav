@@ -1,0 +1,5 @@
+a stdout print
+before fork
+pid = 8868	globvar=7	var=89
+before fork
+pid = 8867	globvar=6	var=88

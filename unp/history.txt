@@ -1,0 +1,1000 @@
+   91  ls /usr/sys
+   92  ls /sys
+   93  ls /usr
+   94  ls /usr/lib
+   95  ls /etc/
+   96  ls /usr
+   97  ls /
+   98  ls /sys
+   99  ls /usr
+  100  ls /usr/include
+  101  nano /usr/include/ftw.h
+  102  whereis skbuff.c
+  103  sudo find / -name "skbuff.c"
+  104  sudo cat /run/user/100/doc
+  105  sudo updatedb
+  106  sudo locate skbuff.c
+  107  sudo apt-get locate
+  108  sudo apt-get install locate
+  109  sudo locate skbuff.c
+  110  sudo find / -type f -name "skbuff.c" 2>/dev/null
+  111  sudo updatedb
+  112  sudo updatedb --prunepaths="/run/user"
+  113  sudo updatedb
+  114  sudo find / -type f -name "skbuff.c" 2>/dev/null
+  115  sudo find / -name '.*' -type f -iname 'skbuff.c' 2</dev/null
+  116  nano pack_hdr.c
+  117  find netfilter.h
+  118  sudo find / -type f -name "netfilter.h" 2>/dev/null
+  119  nano /usr/src/linux-headers-6.1.0-13-common/include/linux/netfilter.h
+  120  nano skb_res.c
+  121  sudo apt-get install net-tookls
+  122  sudo apt-get install net-tools
+  123  ifconfig
+  124  sudo apt update
+  125  ifconfig
+  126  man ftw
+  127  man stat
+  128  man stat(2)
+  129  ls
+  130  nano find_dr.c
+  131  gcc -o find_dr find_dr.c
+  132  nano find_dr.c
+  133  gcc -o find_dr find_dr.c
+  134  man nftw
+  135  nano find_dr.c
+  136  gcc -o find_dr find_dr.c
+  137  nano find_dr.c
+  138  gcc -o find_dr find_dr.c
+  139  ./find_dr include
+  140  ./find_dr "include"
+  141  nano find_dr.c
+  142  gcc -o find_dr find_dr.c
+  143  nano find_dr.c
+  144  gcc -o find_dr find_dr.c
+  145  nano find_dr.c
+  146  gcc -o find_dr find_dr.c
+  147  nano find_dr.c
+  148  gcc -o find_dr find_dr.c
+  149  nano find_dr.c
+  150  ./find_dr
+  151  ./find_dr include
+  152  ./find_dr "include"
+  153  ./find_dr "/"
+  154  nano find_dr.c
+  155  gcc -o find_dr find_dr.c
+  156  ./find_dr "/"
+  157  ./find_dr "/" "include"
+  158  ./find_dr / include
+  159  nano find_dr.c
+  160  gcc -o find_dr find_dr.c
+  161  ./find_dr "/" "include"
+  162  nano find_dr.c
+  163  gcc -o find_dr find_dr.c
+  164  ./find_dr "/" "include"
+  165  nano find_dr.c
+  166  gcc -o find_dr find_dr.c
+  167  nano find_dr.c
+  168  gcc -o find_dr find_dr.c
+  169  ./find_dr "/" 'include'
+  170  nano find_dr.c
+  171  gcc -o find_dr find_dr.c
+  172  nano find_dr.c
+  173  gcc -o find_dr find_dr.c
+  174  ./find_dr "/" 'include'
+  175  gcc -o find_dr find_dr.c
+  176  nano find_dr.c
+  177  gcc -o find_dr find_dr.c
+  178  ./find_dr "/" 'include'
+  179  ./find_dr "/" "tmp"
+  180  ls /
+  181  ls /opt
+  182  ls /usr
+  183  ./find_dr "/" "libx32"
+  184  nano find_dr.c
+  185  gcc -o find_dr find_dr.c
+  186  ./find_dr "/" "libx32"
+  187  nano find_dr.c
+  188  gcc -o find_dr find_dr.c
+  189  ./find_dr "/" "libx32"
+  190  sudo ./find_dr "/" "libx32"
+  191  ls -l /usr/libx32
+  192  ls -l /libx32
+  193  nano find_dr.c
+  194  sudo ./find_dr "/" "libx32"
+  195  gcc -o find_dr find_dr.c
+  196  sudo ./find_dr "/" "libx32"
+  197  gcc -o find_dr find_dr.c
+  198  sudo ./find_dr "/" "libx32"
+  199  ls /
+  200  ./find_dr "/" "opt"
+  201  gcc -o find_dr find_dr.c
+  202  ./find_dr "/" "opt"
+  203  gcc -o find_dr find_dr.c
+  204  ./find_dr "/" "opt"
+  205  gcc -o find_dr find_dr.c
+  206  ./find_dr "/" "opt"
+  207  gcc -o find_dr find_dr.c
+  208  ./find_dr "/" "opt"
+  209  sudoo ./find_dr "/" "opt"
+  210  sudo ./find_dr "/" "opt"
+  211  ls /
+  212  cd /opt
+  213  ls
+  214  cd ..
+  215  cd /usr
+  216  ls
+  217  cd ..
+  218  cd davide
+  219  ls
+  220  cd home
+  221  cd davide
+  222  cd Downloads/
+  223  cd c
+  224  sudo ./find_dr "/" "usr"
+  225  sudo ./find_dr "/" "opt"
+  226  gcc -o find_dr find_dr.c
+  227  sudo ./find_dr "/" "opt"
+  228  gcc -o find_dr find_dr.c
+  229  sudo ./find_dr "/" "opt"
+  230  gcc -o find_dr find_dr.c
+  231  sudo ./find_dr "/" "opt"
+  232  gcc -o find_dr find_dr.c
+  233  sudo ./find_dr "/" "opt"
+  234  gcc -o find_dr find_dr.c
+  235  sudo ./find_dr "/" "opt"
+  236  gcc -o find_dr find_dr.c
+  237  sudo ./find_dr "/" "opt"
+  238  gcc -o find_dr find_dr.c
+  239  sudo ./find_dr "/" "opt"
+  240  man register_net_hook
+  241  man nf_register_net_hook
+  242  nano find_dr.c
+  243  ls /dev/tty*
+  244  traceroute www.lanordica-extraflame.com
+  245  cd Downloads
+  246  cd c
+  247  vim daytimetcpcli.c
+  248  vi daytimetcpcli.c
+  249  nano daytimetcpcli.c
+  250  gcc -o daytimetcpcli daytimetcpcli.c
+  251  nano daytimetcpcli.c
+  252  gcc -o daytimetcpcli daytimetcpcli.c
+  253  nano daytimetcpcli.c
+  254  gcc -o daytimetcpcli daytimetcpcli.c
+  255  ./daytimetcpcli
+  256  ./daytimetcpcli 206.168.112.96
+  257  man bzero
+  258  ruby
+  259  cd Downloads/
+  260  cd c
+  261  nano cpu.c
+  262  man cpu_id_t
+  263  echo $TERM
+  264  nano .vimrc
+  265  cd ..
+  266  ls
+  267  cd davide
+  268  cd Downloads
+  269  vim -N unp.c
+  270  vi -N unp.c
+  271  dpkg-reconfigure-keyboard-configuration
+  272  nano ~/.vimrc
+  273  cd ..
+  274  ls
+  275  cd ..
+  276  ls
+  277  ls -s
+  278  ls -a
+  279  ls -lr
+  280  cd davide
+  281  ls
+  282  cd ..
+  283  whereis .vimrc
+  284  cd ..
+  285  ls
+  286  grep *.vimrc | ls
+  287  cd ~
+  288  ls
+  289  nano .vimrc
+  290  ls
+  291  ls -l
+  292  ls -a
+  293  cd Downloads/
+  294  cd c
+  295  ls
+  296  nano cpu.c
+  297  vi cpu.c
+  298  cd ..
+  299  ls
+  300  ls -a
+  301  cd ..
+  302  ls
+  303  ls-a
+  304  ls -a
+  305  grep .vim | ls
+  306  cd /usr/bin
+  307  ls
+  308  cd vi
+  309  ls
+  310  cd vi
+  311  ls -a
+  312  cd .,
+  313  cd ..
+  314  cd share
+  315  ls
+  316  cd vim
+  317  ls
+  318  cd vim90
+  319  ls
+  320  cd .
+  321  cd ..
+  322  ls
+  323  cd addons
+  324  ls
+  325  cd ..
+  326  cd registry
+  327  ls
+  328  cd ..
+  329  ls
+  330  echo $VIMRUNTIME
+  331  echo $VIRUNTIME
+  332  vi ciao.c
+  333  ls
+  334  sudo echo $VIMRUNTIME
+  335  sudo echo $VIRUNTIME
+  336  vim --version
+  337  vi --version
+  338  cd ~
+  339  nano .vimrc
+  340  cd Downloads
+  341  cd c
+  342  vi cpu.c
+  343  ls
+  344  cd ..
+  345  ls
+  346  ls -a
+  347  mkdir .vim
+  348  ls
+  349  ls -a
+  350  mv .vimrc .vim
+  351  ls
+  352  ls -a
+  353  cd .vim
+  354  ls
+  355  ls 
+  356  ls -a
+  357  mkdir colors
+  358  ls
+  359  cd colors/
+  360  git clone https://github.com/morhetz/gruvbox
+  361  sudo apt-get install git
+  362  git clone https://github.com/morhetz/gruvbox
+  363  ls
+  364  cd ..
+  365  cd davide
+  366  cd Downloads
+  367  cd c
+  368  vi cpu.c
+  369  nano ~/.vimrc
+  370  nano ~/.vim/.vimrc
+  371  vi cpu.c
+  372  cd ~/.vim
+  373  ls
+  374  cd colors
+  375  ls
+  376  cd gruvbox
+  377  ls
+  378  cd colors
+  379  ls
+  380  cd .
+  381  cd ..
+  382  ls
+  383  mv gruvbox/colors .
+  384  ls
+  385  mv colors ..
+  386  cd ..
+  387  rn
+  388  rname
+  389  mv colors colors2
+  390  ls
+  391  cd colors2
+  392  ls
+  393  cd ..
+  394  ls
+  395  cd colors2
+  396  ks
+  397  ls
+  398  mv colors ..
+  399  ls
+  400  cd ..
+  401  ls
+  402  cd colors
+  403  ls
+  404  cd ..
+  405  cd Downloads
+  406  ls
+  407  cd .
+  408  cd c
+  409  ls
+  410  vi cpu.c
+  411  ls -l ~/.vim/colors
+  412  vi cpu.c
+  413  nano ~/.vim/colors/gruvbox.vim
+  414  vi --version
+  415  nano ~/.vim/.vimrc
+  416  vi cpu.c
+  417  nano ~/.vim/.vimrc
+  418  vi cpu.c
+  419  nano ~/.vim/.vimrc
+  420  vi cpu.c
+  421  nano ~/.vim/.vimrc
+  422  vi cpu.c
+  423  vi --version
+  424  sudo apt-get install vim-gui-common
+  425  sudo apt-get install vim-runtime
+  426  update-alternatives --display vim
+  427  vi cpu.c
+  428  gcc -o cpu_vendor cpu.c
+  429  git clone https://github.com/anrieff/libcpuid.git
+  430  ls /home
+  431  ls /home/user/temp/libcpuid
+  432  ls /home/user/temp
+  433  ls /home/user
+  434  ls /home/davide
+  435  ls usr/lib
+  436  ls /usr/lib
+  437  ls /usr/include/lib
+  438  ls /usr/include
+  439  grep libcpuid*
+  440  run "libtoolize"
+  441  autoconf
+  442  sudo apt-get install autoconf
+  443  sudo apt-install automake
+  444  sudo apt-get install automake
+  445  sudo apt-get install libtool
+  446  run
+  447  sudo find / -name "libcpuid.so" -type f
+  448  ls
+  449  cd libcpuid/
+  450  ls
+  451  cd cmake
+  452  ls
+  453  cd ..
+  454  run
+  455  cd cpuid_tool/
+  456  ls
+  457  cd ..
+  458  libtoolize
+  459  ls
+  460  autoreconf --install
+  461  ls
+  462  ./configure
+  463  make
+  464  cd ..
+  465  gcc -o cpu_version cpu.c -lcpuid -L ~/Downloads/c/libcpuid/libcpuid/.libs -I ~/Downloads/c/libcpuid/libcpuid
+  466  vim cpu.c
+  467  gcc -o cpu_version cpu.c -lcpuid -L ~/Downloads/c/libcpuid/libcpuid/.libs -I ~/Downloads/c/libcpuid/libcpuid
+  468  vim cpu.c
+  469  gcc -o cpu_version cpu.c -lcpuid -L ~/Downloads/c/libcpuid/libcpuid/.libs -I ~/Downloads/c/libcpuid/libcpuid
+  470  ./cpu_version
+  471  ls /usr/include
+  472  ls /usr/include/libltdl
+  473  ls
+  474  ls libcpuid
+  475  ls libcpuid/libcpuid
+  476  cp . /usr/include/libcpuid
+  477  ls /usr/include
+  478  ls
+  479  cd libcpuid
+  480  ls
+  481  cd libcpuid
+  482  òs
+  483  ls
+  484  cd ..
+  485  ls
+  486  cp
+  487  cp --help
+  488  sudo cp ./libcpuid /usr/include
+  489  sudo cp -R ./libcpuid /usr/include
+  490  ls /usr/include
+  491  ls /usr/include/libcpuid
+  492  cd ..
+  493  ./cpu_version
+  494  sudo find / -name "libcpuid.so.16" cd Downloads/
+  495  cd c
+  496  vim daytimetcpcli.c
+  497  vim daytimetcpcli1.c
+  498  vim daytimetcpsrv1.c
+  499  gcc -o daytimetcpsrv1 daytimetcpsrv1.c
+  500  ./daytimetcpsrv1
+  501  vim daytimetcpsrv1.c
+  502  gcc -o daytimetcpsrv1 daytimetcpsrv1.c
+  503  ./daytimetcpsrv1
+  504  vim daytimetcpsrv1.c
+  505  gcc -o daytimetcpsrv1 daytimetcpsrv1.c
+  506  vim unp.g
+  507  vim unp.h
+  508  vim tcpserv01.c
+  509  vim unp.h
+  510  vim unp.c
+  511  vim tcpserv01.c
+  512  vim unp.h
+  513  vim unp.h
+  514  vim tcpserv01.c
+  515  vim unp.h
+  516  vim tcpcli01.c
+  517  vim unp.h
+  518  vim unp.c
+  519  vim tcpcli01.c
+  520  gcc -o tcpserv01 tcpserv01.c
+  521  vim tcpserv01.c
+  522  gcc -o tcpserv01 tcpserv01.c
+  523  vim tcpserv01.c
+  524  gcc -o tcpserv01 tcpserv01.c
+  525  vim tcpserv01.c
+  526  gcc -o tcpserv01 tcpserv01.c
+  527  vim tcpserv01.c
+  528  vim unp.h
+  529  gcc -o tcpserv01 tcpserv01.c unp.c
+  530  vim unp.h
+  531  vim unp.c
+  532  gcc -o tcpserv01 tcpserv01.c unp.c
+  533  tcpserv01 &
+  534  ./tcpserv01 &
+  535  vim tcpserv01
+  536  vim tcpserv01.c
+  537  gcc -o tcpserv01 tcpserv01.c unp.c
+  538  ./tcpserv01 &
+  539  netstat -a
+  540  netstat -tuln
+  541  lsof -i
+  542  gcc -o tcpcli01 tcpcli01.c
+  543  gcc -o tcpcli01 tcpcli01.c unp.c
+  544  ls
+  545  vim unp.h
+  546  vim unp.c
+  547  gcc -o tcpcli01 tcpcli01.c unp.c readline.c 
+  548  ls
+  549  vim unp.c
+  550  gcc -o tcpcli01 tcpcli01.c unp.c readline.c 
+  551  vim unp.c
+  552  gcc -o tcpcli01 tcpcli01.c unp.c readline.c 
+  553  tcpcli01 127.0.0.1
+  554  ./tcpcli01 127.0.0.1
+  555  job
+  556  jobs
+  557  ./tcpcli01 127.0.0.1
+  558  jobs
+  559  ./tcpcli01 127.0.0.1
+  560  jobs
+  561  ps -e pid,ppid,state,cmd | grep '^[^Zz]'
+  562  ps -e -o pid,ppid,state,cmd | grep '^[^Zz]'
+  563  kill 3903
+  564  ps -e -o pid,ppid,state,cmd | grep '^[^Zz]'
+  565  ps -aux | grep "kworker/u2:0-events_unbound"
+  566  jobs
+  567  ./tcpserv01 &
+  568  ./tcpcli01 127.0.0.1
+  569  jobs
+  570  ps -t pts/6 -o pid,ppid,tty,stat,args,wchan
+  571  ps -o pid,tty -p PID
+  572  jobs
+  573  ps aux
+  574  jobs
+  575  ps -o pid,tty -p 4301
+  576  ps -t pts/0 -o pid,ppid,tty,stat,args,wchan
+  577  ./tcpcli01 127.0.0.1
+  578  ps -t pts/0 -o pid,ppid,tty,stat,args,wchan
+  579  netstat -a | grep 9877
+  580  ps -o pid,tty -p 4301
+  581  ps -o pid,ppid,tty -p 4301
+  582  ls
+  583  ./tcpcli01 127.0.0.1
+  584  ps -aux
+  585  man getsockname
+  586  man sock_ntop
+  587  man inet_ntop
+  588  man socket
+  589  man inet_ntop
+  590  man getsockname
+  591  man struct_sockaddr
+  592  man sockaddr_in
+  593  ./daytimetcpcli 127.0.0.1
+  594  man fork
+  595  man str_echo
+  596  ./tcpsrv01
+  597  ./tcpserv01
+  598  ./tcpserv01 &
+  599  jobs
+  600  job
+  601  jobs
+  602  ./tcpserv01 &
+  603  jobs
+  604  vim tcpcli01.c
+  605  vim unp.h
+  606  vim writen.c
+  607  gcc -o tcpcli01 tcpcli01.c unp.c writen.c
+  608  gcc -o tcpcli01 tcpcli01.c unp.c writen.c readline.c
+  609  gcc -o tcpcli01 tcpcli01.c unp.c readline.c
+  610  jobs
+  611  vim writen.c
+  612  vim unp.c
+  613  vim readline.c
+  614  gcc -o tcpcli01 tcpcli01.c unp.c readline.c
+  615  ./tcpcli01 127.0.0.1
+  616  jobs
+  617  ps -aux
+  618  kill 4301
+  619  ./tcpserv01 &
+  620  ./tcpcli01 127.0.0.1
+  621  vim tcpserv01.c
+  622  vim tcpcli01.c
+  623  gcc -o tcpcli01 tcpcli01.c unp.c readline.c
+  624  ./tcpcli01 127.0.0.1
+  625  vim tcpcli01.c
+  626  vim unp.c
+  627  vim tcpcli01.c
+  628  gcc -o tcpcli01 tcpcli01.c unp.c
+  629  ./tcpcli01 127.0.0.1
+  630  vim tcpcli01.c
+  631  vim readline.c
+  632  gcc -o tcpcli01 tcpcli01.c unp.c
+  633  ./tcpcli01 127.0.0.1
+  634  gcc readline.c
+  635  gcc -o tcpcli01 tcpcli01.c unp.c readline.c
+  636  gcc -o tcpcli01 tcpcli01.c unp.c
+  637  ./tcpcli01 127.0.0.1
+  638  vim readline.c
+  639  gcc -o tcpcli01 tcpcli01.c unp.c
+  640  ./tcpcli01 127.0.0.1
+  641  vim tcpcli01.c
+  642  vim signal.c
+  643  vim unp.h
+  644  gcc -o signal signal.c
+  645  vim unp.h
+  646  vim signal.c
+  647  vim tcpserv01.c
+  648  gcc -o tcpserv01 tcpserv01.c
+  649  gcc -o tcpserv01 tcpserv01.c unp.c
+  650  ./tcpsrv01 &
+  651  ps -aux
+  652  ./tcpserv01 &
+  653  kill 4359
+  654  ./tcpserv01 &
+  655  ./tcpcli01 127.0.0.1
+  656  vim tcpcli04.c
+  657  gcc -o tcpcli04 tcpcli04.c
+  658  gcc -o tcpcli04 tcpcli04.c unp.c
+  659  vim tcpcli04.c
+  660  gcc -o tcpcli04 tcpcli04.c unp.c
+  661  vim tcpcli04.c
+  662  gcc -o tcpcli04 tcpcli04.c unp.c
+  663  ls
+  664  vim tcpcli04.c
+  665  gcc -o tcpcli04 tcpcli04.c unp.c
+  666  ps -aux
+  667  ./tcpserv01 &
+  668  ps -aux
+  669  tcpcli04 127.0.0.1
+  670  ./tcpcli04 127.0.0.1
+  671  ps -a pts/1 pid,tty,time,cmd 
+  672  ps -o pts/1 pid,tty,time,cmd 
+  673  ps -l pts/1 pid,tty,time,cmd 
+  674  ps -t pts/1 pid,tty,time,cmd 
+  675  ps -t pts/1 -o pid,tty,time,cmd 
+  676  ps -t pts/1 -o pid,tty,time,cmd,state 
+  677  ls
+  678  vim signal.c
+  679  vim tcpcli04.c
+  680  vim tcpserv01.c
+  681  ls
+  682  vim tcpcli04.c
+  683  vim signal.c
+  684  gcc -o tcpcli04 tcpcli04.c unp.c
+  685  ./tcpcli04 127.0.0.1
+  686  vim tcpserv01.c
+  687  gcc -o tcpserv01 tcpserv01.c
+  688  vim tcpserv01.c
+  689  vim signal.c
+  690  gcc -o tcpserv01 tcpserv01.c
+  691  gcc -o tcpserv01 tcpserv01.c unp.c
+  692  ps -t pts/1 -o pid,tty,time,cmd,state 
+  693  kill 4584
+  694  ps -t pts/1 -o pid,tty,time,cmd,state 
+  695  ./tcpserv01&
+  696  ./tcpcli04 127.0.0.1
+  697  vim tcpserv01.c
+  698  vim signal.c
+  699  vim readline.c
+  700  vim tcpcli04.c
+  701  vim tcpserv01.c
+  702  vim readline.c
+  703  vim unp.c
+  704  vim tcpcli04.c
+  705  gcc -o tcpcli04 tcpcli04.c unp.c
+  706  ./tcpcli04 127.0.0.1
+  707  ps -aux
+  708  ./tcpserv01&
+  709  ./tcpcli04 127.0.0.1
+  710  kill 4757
+  711  kill 4759
+  712  kill 4760
+  713  kill 4761
+  714  kill 4762
+  715  kill 4763
+  716  ./tcpcli04 127.0.0.1
+  717  ./tcpserv01&
+  718  ./tcpcli04 127.0.0.1
+  719  man getsockname
+  720  man accept
+  721  man inet_ntop
+  722  vim readn.c
+  723  vim writen.c
+  724  man fputs
+  725  man fgets
+  726  man inet_pton
+  727  man connecty
+  728  man connect
+  729  cd Downloads/
+  730  cd c
+  731  vim networksniffer.c
+  732  vim networkeater.c
+  733  vim networkeater.h
+  734  vim networkeater.c
+  735  gcc -o networkeater networkeater.c
+  736  git clone https://libwebsockets.org/repo/libwebsockets
+  737  gcc -o networkeater networkeater.c -lwebsockets
+  738  ls
+  739  cd libwebsockets
+  740  ls
+  741  vim README.md
+  742  cd cmake
+  743  ls
+  744  cd ..
+  745  mkdir build
+  746  cd build
+  747  cmake ..
+  748  sudo apt-get install cmake
+  749  ls
+  750  cd ..
+  751  ls
+  752  cd build
+  753  la
+  754  ls -a
+  755  make
+  756  cd ..
+  757  ls -l
+  758  vim CMakeLists.txt
+  759  cd include/
+  760  ls
+  761  cd libwebsockets/
+  762  ls
+  763  cd ..
+  764  cd lib
+  765  cd libwebsockets/
+  766  ls
+  767  cd build 
+  768  cmake ..
+  769  ls /usr/local/openssl
+  770  sudo apt-get install openssl
+  771  sudo find / -name "openssl" -type d
+  772  export OPENSSL_ROOT_DIR=/opt/metasploit-framework/embedded/include
+  773  cmake ..
+  774  vim networksniffer.c
+  775  vim networkeater.c
+  776  vim networkeater.h
+  777  vim networkeater.c
+  778  vim networksniffer.c
+  779  vim networkeater.h
+  780  cd Downloads
+  781  cd c
+  782  cd libwebsockets/
+  783  cd build/
+  784  cmake ..
+  785  cmake -DOPENSSL_INCLUDE_DIR=/opt/metasploit-framework/embedded/include ..
+  786  sudo find / -name "openssl" -type d
+  787  dpkg -l | grep openssl
+  788  sudo apt-get install openssl-dev
+  789  sudo apt-get install libssl-dev
+  790  dpkg -l | grep openssl
+  791  dpkg -l | grep libssl
+  792  sudo find / -name "pkg-config" -type d
+  793  ls /usr/lib/pkgconfig
+  794  sudo find / -name "openssl.pc" -type f
+  795  export PKG_CONFIG_PATH=/opt/metasploit-framework/embedded/lib/pkgconfig:$PKG_CONFIG_PATH
+  796  cmake -DOPENSSL_LIBRARIES=$(pkg-config --libs openssl) -DOPENSSL_INCLUDE_DIRS=$(pkg-config --cflags openssl) ..
+  797  sudo find / -name "libcrypto.so"
+  798  ls /opt/metasploit-framework/embedded/include
+  799  cmake -DOPENSSL_ROOT_DIR=/opt/metasploit-framework/embedded -DOPENSSL_CRYPTO_LIBRARY=/opt/metasploit-framework/embedded/lib/libcrypto.so -DOPENSSL_INCLUDE_DIR=/opt/metasploit-framework/embedded/include ..
+  800  ls
+  801  make
+  802  cd ..
+  803  ls
+  804  gcc -o networkeater networkeater.c -libwebsockets
+  805  gcc -o networkeater networkeater.c -lwebsockets
+  806  gcc -o networkeater networkeater.c -I(pat -lwebsockets -lssl -lcrypto
+  807  sudo find / -name "libwebsockets" -type d
+  808  sudo find / -name "libwebsockets" -type f
+  809  sudo find / -name "libwebsockets.h" -type f
+  810  sudo find / -name "libwebsockets" -type d
+  811  cd libwebsockets
+  812  ls
+  813  cd ..
+  814  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  815  vim ./libwebsockets/include/libwebsockets.h
+  816  cd ./libwebsockets/include
+  817  l
+  818  ls
+  819  cd libwebsockets/
+  820  ls
+  821  cd ..
+  822  ls
+  823  cd ..
+  824  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  825  sudo apt-get install libcurl-dev
+  826  sudo apt-get install libcurl
+  827  sudo apt-get install libcurl4-openssl-dev
+  828  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  829  sudo apt-get install cjson
+  830  sudo apt-get update
+  831  sudo apt-get install libjson-c-dev
+  832  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  833  sudo updatedb
+  834  locate jJSON.h
+  835  locate cJSON.h
+  836  locate cjson.h
+  837  sudo locate cjson.h
+  838  sudo locate cJSON.g
+  839  sudo locate cJSON.h
+  840  sudo find / -name cJSON.h -type f
+  841  sudo apt-get install json-c-devel
+  842  ls
+  843  ls /usr/include/
+  844  ls /usr/include/ | grep json
+  845  ls /usr/include/json-c
+  846  git clone https://github.com/DaveGamble/cJSON.git
+  847  cd cJSON
+  848  mkdir build
+  849  cd build
+  850  cmake ..
+  851  ls
+  852  vim Makefile
+  853  make
+  854  sudo make install
+  855  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  856  cd ..
+  857  ls
+  858  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  859  vim networkeater.c
+  860  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  861  vim networkeater.c
+  862  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  863  vim networkeater.c
+  864  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto[B
+  865  vim networkeater.c
+  866  vim networkeater.h
+  867  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  868  pkg-config --modversion libwebsockets
+  869  cd libwebsockets/
+  870  ls
+  871  cd lib
+  872  ls
+  873  cd ..
+  874  ls
+  875  cd include
+  876  ls
+  877  cd libwebsockets/
+  878  ls
+  879  cd ..
+  880  òs
+  881  ls
+  882  vim libwebsockets.h
+  883  ls
+  884  cd libwebsockets/
+  885  ls
+  886  cd ..
+  887  ls
+  888  vim find_dr
+  889  vim find_dr.c
+  890  vim find_str.c
+  891  gcc -o find_str find_str.c
+  892  vim find_str.c
+  893  gcc -o find_str find_str.c
+  894  man setenv
+  895  vim search_str.c
+  896  vim find_str.c
+  897  gcc -o find_str find_str.c
+  898  vim find_str.c
+  899  gcc -o find_str find_str.c
+  900  vim find_str.c
+  901  gcc -o find_str find_str.c
+  902  ./find_str
+  903  vim find_str.c
+  904  ./find_str
+  905  gcc -o find_str find_str.c
+  906  ./find_str
+  907  ./find_str . LWS_LIBRARY_VERSION_MAJOR
+  908  vim ./libwebsockets/build/include/lws_config.h
+  909  vim networkeater.c
+  910  history > command_history.txt
+  911  history | grep "gcc "
+  912  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto
+  913  ls ./libwebsockets/lib
+  914  ls ./libwebsockets/include
+  915  ls ./libwebsockets/include/libwebsockets
+  916  ls ./libwebsockets/lib
+  917  ls ./libwebsockets
+  918  ls ./libwebsockets/build
+  919  ./find_dr . *.so
+  920  history | grep .so
+  921  sudo find / -name libwebsockets.so
+  922  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto
+  923  vim networkeater.c
+  924  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson
+  925  vim networkeater.c
+  926  history | grep history
+  927  history >> command_history.txt
+  928  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson
+  929  ./networkeater
+  930  sudo find / -name libwebsockets.so.19
+  931  nano ~/.bashrc
+  932  ./find_str . lws_context_creation_info
+  933  vim find_str.c
+  934  gcc -o find_str find_str.c
+  935  ./find_str . lws_context_creation_info
+  936  cd libwebsockets/
+  937  cd include/
+  938  cd libwebsockets/
+  939  vim lws-context-vhost.h
+  940  ../../find_str . LWS_ROLE_H1
+  941  ../../../find_str . LWS_ROLE_H1
+  942  vim lws-secure-streams-policy.h
+  943  cd ..
+  944  vim lws_config.h
+  945  cd libwebsockets/
+  946  ls
+  947  vim lws-context-vhost.h
+  948  ../../../find_str . lws_create_context
+  949  cd ..
+  950  ls
+  951  cd ..
+  952  ls
+  953  cd lib
+  954  ls
+  955  cd core
+  956  ls
+  957  ../../../find_str . lws_create_context
+  958  vim ./context.c
+  959  cd ..
+  960  cd include/
+  961  vim lws_config.h
+  962  man lws_client_connect_info
+  963  cd libwebsockets/
+  964  l
+  965  ls
+  966  cd include
+  967  ls
+  968  cd libwebsockets.h
+  969  vim libwebsockets.h
+  970  cd libwebsockets/
+  971  ls
+  972  vim lws-backtrace.h 
+  973  cd ..
+  974  ls
+  975  vim libwebsockets.h
+  976  vim lws-write.h
+  977  cd libwebsockets/
+  978  vim lws-w
+  979  vim lws-write.h
+  980  cd ..
+  981  vim libwebsockets.h
+  982  ls
+  983  vim lws_config.h
+  984  man nftw
+  985  man setenv
+  986  sudo vim ~/.bashrc
+  987  pwd
+  988  cd Downloads
+  989  cd c
+  990  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto -lcurl -ljson
+  991  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson
+  992  vim ~/.bashrc
+  993  cd Downloads/
+  994  cd c
+  995  gcc -o networkeater networkeater.c -I./libwebsockets/include -lwebsockets -lssl -lcrypto -lcurl -lcjson
+  996  find / -name libwebsockets.so
+  997  sudo find / -name libwebsockets.so
+  998  gcc -o networkeater networkeater.c -I./libwebsockets/include -llibwebsockets -lssl -lcrypto -lcurl -lcjson
+  999  gcc -o networkeater networkeater.c -I./libwebsockets/include -libwebsockets -lssl -lcrypto -lcurl -lcjson
+ 1000  gcc -o networkeater networkeater.c -I./libwebsockets/include -lwebsockets -lssl -lcrypto -lcurl -lcjson
+ 1001  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -ljson
+ 1002  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson
+ 1003  ./networkeater
+ 1004  vim ./networkeater.c
+ 1005  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson
+ 1006  ./networkeater
+ 1007  ./networkeater ipinfo.io
+ 1008  ./networkeater ipinfo.io >> networkeater_out.txt
+ 1009  vim networkeater_out.txt 
+ 1010  gdb
+ 1011  vim networkeater.c
+ 1012  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g
+ 1013  gdb
+ 1014  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1015  gdb
+ 1016  vim networkeater.c
+ 1017  gdb
+ 1018  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1019  gdb
+ 1020  ./networkeater www.wikipedia.org > networkeater_out2.txt
+ 1021  vim networkeater_out2.txt
+ 1022  find_str
+ 1023  find_str . LWS_PRE
+ 1024  find_str . LWS_PRE | grep .h
+ 1025  vim lws-write.h
+ 1026  vim ./libwebsockets/build/include/libwebsockets/lws-write.h
+ 1027  vim ./libwebsockets/build/include/libwebsockets.h
+ 1028  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1029  ./networkeater www.wikipedia.org
+ 1030  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1031  vim networkeater_out3.txt 
+ 1032  vim networkeater.c
+ 1033  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1034  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1035  vim networkeater_out3.txt
+ 1036  vim networkeater.c
+ 1037  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1038  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1039  vim networkeater_out3.txt
+ 1040  vim networkeater.c
+ 1041  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1042  ./networkeater www.google.com > networkeater_out3.txt
+ 1043  vim networkeater_out3.txt
+ 1044  vim networkeater.c
+ 1045  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1046  ./networkeater www.google.com
+ 1047  ./networkeater www.google.com > networkeater_out3.txt
+ 1048  vim networkeater_out3.txt
+ 1049  vim networkeater.c
+ 1050  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1051  gdb
+ 1052  gdb networkeater
+ 1053  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1054  ./networkeater
+ 1055  ./networkeater www.wikipedia.org
+ 1056  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1057  vim networkeater_out3.txt
+ 1058  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1059  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1060  vim networkeater_out3.txt
+ 1061  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1062  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1063  networkeater_out3.txt
+ 1064  grep "Error" networkeater_out3.txt
+ 1065  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1066  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1067  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1068  ./networkeater www.wikipedia.org > networkeater_out3.txt
+ 1069  vim networkeater_out3.txt
+ 1070  grep networkeater_out3 "Request"
+ 1071  grep "Request" networkeater_out2
+ 1072  grep "Request" networkeater_out2.txt
+ 1073  grep "Request" networkeater_out3.txt
+ 1074  ./networkeater ipinfo.io > networkeater_out3.txt
+ 1075  grep "Request" networkeater_out3.txt
+ 1076  sudo apt-get install valgrind
+ 1077  valgrind
+ 1078  valgrind --leak-check=full ./networkeater
+ 1079  valgrind --leak-check=full ./networkeater www.wikipedia.org
+ 1080  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1081  ./networkeater ipinfo.io > networkeater_out3.txt
+ 1082  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1083  ./networkeater ipinfo.io > networkeater_out3.txt
+ 1084  gcc -o networkeater networkeater.c -I./libwebsockets/include -L./libwebsockets/lib -L./libwebsockets/build/lib -lwebsockets -lssl -lcrypto -lcurl -lcjson -g -O0 
+ 1085  ./networkeater ipinfo.io > networkeater_out3.txt
+ 1086  valgrind --leak-check=full -- track-origins=yes --show-reachable=yes ./networkeater www.wikipedia.org
+ 1087  valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./networkeater www.wikipedia.org
+ 1088  grep history "still reachable"
+ 1089  grep "still reachable" history
+ 1090  history >> history.txt

@@ -1,0 +1,35 @@
+Source MAC: 52:54:00:12:35:02
+Destination MAC: 08:00:27:0e:ad:03
+Source IP Address: 34.117.186.192
+Destination IP Address: 10.0.2.15
+Source port: 443
+Destination port: 35856
+Payload: 
+Source MAC: 08:00:27:0e:ad:03
+Destination MAC: 52:54:00:12:35:02
+Source IP Address: 10.0.2.15
+Destination IP Address: 34.117.186.192
+Source port: 35856
+Destination port: 443
+Payload: ×|}Ú±ZÔÃðPî@ý
+Source MAC: 52:54:00:12:35:02
+Destination MAC: 08:00:27:0e:ad:03
+Source IP Address: 34.117.186.192
+Destination IP Address: 10.0.2.15
+Source port: 443
+Destination port: 35856
+Payload: 
+Source MAC: 52:54:00:12:35:02
+Destination MAC: 08:00:27:0e:ad:03
+Source IP Address: 34.117.186.192
+Destination IP Address: 10.0.2.15
+Source port: 443
+Destination port: 35856
+Payload: 
+Source MAC: 52:54:00:12:35:02
+Destination MAC: 08:00:27:0e:ad:03
+Source IP Address: 34.117.186.192
+Destination IP Address: 10.0.2.15
+Source port: 443
+Destination port: 35856
+Payload: 

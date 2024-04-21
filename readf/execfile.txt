@@ -1,0 +1,64 @@
+#include "hd.h"
+#include <sys/wait.h>
+
+
+int read_file(char *fname) {
+	char **lines;
+	int lenl, nlin;
+	int lenf = 0;
+	size_t nread;
+	FILE *f;
+
+	if((f = fopen(fname, "r")) == NULL)
+		print_err("Error fopen", errno);
+		
+	char line[MAXLINE];
+	lines = (char **)malloc(sizeof(char *) * 512);
+	while(fgets(line, sizeof(line), f) != NULL) {
+		size_t len = strlen(line);
+		lenf += len;
+		if(len > 0 && line[len - 1] == '\n') {
+			printf("line: %s\n",line);
+			lines[nlin] = line;
+			nlin++;
+		}
+	}
+	
+	//Free allocated array
+	free(lines);
+
+	fclose(f);
+	return lenf;
+}
+
+int main(int argc, char **argv) {
+	if(argc != 2)
+		print_err("Usage: %s <file>\n", argv[0]);
+	char fname[256];
+	int len;
+	if((len = read_file(fname)) < 0)
+		print_err("Error read_file");
+
+	printf("Length of file: %d\n", len);
+	
+	//Allocate memory for exec comman
+	char cmd[1024];
+	size_t prevlen = strlen(cmd);
+	/*memset(cmd + prevlen, cmd, 1023 - prevlen);
+	*(cmd + 1023) = '\0';
+	*/
+	cmd = "git clone https://%s@github.com/iitip/c_rep.git";
+	memset(cmd + prevlen, cmd, 1023 - prevlen);
+	*(cmd + 1023) = '\0';
+
+	if(fork() == 0) {
+		if(execl(cmd, argv[1], (char *)NULL) < 0)
+			print_error("Error execl.");
+	}
+	//Parent now waits for child (PID 0) to complete the system call
+	if(wait((int *)0) < 0)
+		print_error("error wait");		
+
+	fflush(stdout);
+	return 0;
+}
