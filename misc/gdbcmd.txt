@@ -1,0 +1,21 @@
+x/xw $rsp
+x/xg $rsp
+x/8xw $rsp
+
+info register rip
+
+x/4i $rip
+nexti
+
+set disassembly flavor intel
+
+x/s 0x...
+
+x/6cb
+
+x/1uw $rip
+p/x *ptr
+
+bt
+
+info proc mappings

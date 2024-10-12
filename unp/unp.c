@@ -1,5 +1,4 @@
 #include "unp.h"
-#include "writen.c"
 #include "readline.c"
 
 #ifdef HAVE_SOCKADDR_DL_STRUCT
@@ -50,7 +49,58 @@ pid_t Fork() {
 	}
 }
 
-int Writen(int sockfd, char *buf, int buflen) {
+
+ssize_t readn(int fd, void *vptr, size_t n) {
+	size_t nleft;
+	ssize_t nread;
+	char *ptr;
+
+	ptr = vptr;
+	nleft = n;
+	while(nleft > 0) {
+		if((nread = read(fd, ptr, nleft)) < 0) {
+			if(errno == EINTR)
+				nread = 0;
+			else
+				return -1;
+		} else if(nread == 0) {
+			break; /*EOF*/
+		}
+		nleft -= nread;
+		ptr += nread;
+	}
+	return (n - nleft); //return >= 0
+	
+}
+
+ssize_t Readn(int fd, void *vptr, size_t n) {
+	if(readn(fd, vptr, n) == -1) {
+		printf("error Readn: %s\n", strerror(errno));
+		return -1;
+	}
+}
+
+int writen(int fd, void *vptr, int n) {
+	size_t nleft;
+	ssize_t nwritten;
+	const char *ptr;
+
+	ptr = vptr;
+	nleft = n;
+	while(nleft > 0) {
+		if((nwritten = write(fd, ptr, nleft)) <= 0) {
+			if(nwritten < 0 && errno == EINTR)
+				nwritten = 0;
+			else
+				return -1; /*error*/
+		}
+		nleft -= nwritten;
+		ptr += nwritten; //increment ptr
+	}
+	return (long)(n - nleft);
+}
+
+int Writen(int sockfd, void *buf, int buflen) {
 	if(writen(sockfd, buf, buflen) == -1) {
 		printf("Error Writen. %s\n", strerror(errno));
 		return -1;

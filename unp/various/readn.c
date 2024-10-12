@@ -23,7 +23,7 @@ ssize_t readn(int fd, void *vptr, size_t n) {
 	
 }
 
-ssize_t Read(int fd, void *vptr, size_t n) {
+ssize_t Readn(int fd, void *vptr, size_t n) {
 	ssize_t res;
 	if((res = readn(fd, vptr, n)) < 0) {
 		printf("error readn: %s\n", strerror(errno));

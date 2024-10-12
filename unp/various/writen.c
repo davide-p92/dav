@@ -1,6 +1,6 @@
 #include "unp.h"
 
-ssize_t writen(int fd, const void *vptr, size_t n) {
+long writen(int fd, void *vptr, unsigned int n) {
 	size_t nleft;
 	ssize_t nwritten;
 	const char *ptr;
@@ -17,5 +17,12 @@ ssize_t writen(int fd, const void *vptr, size_t n) {
 		nleft -= nwritten;
 		ptr += nwritten; //increment ptr
 	}
-	return (ssize_t)(n - nleft);
+	return (long)(n - nleft);
+}
+
+long Writen(int fd, void *vptr, unsigned int n) {
+	if (writen(fd, vptr, n) == -1) {
+		printf("error writen: %s\n", strerror(errno));
+		return -1;
+	}
 }
